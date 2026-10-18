@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python / tooling
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.gradio/
+flagged/
+
+# Runtime records written by the app/notebook (test evidence lives in test_results/)
+data/*
+!data/.gitkeep
+
+# Temporary browser video frames
+test_results/video_tmp/

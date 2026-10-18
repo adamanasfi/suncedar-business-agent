@@ -1,0 +1,9 @@
+# Notebook execution, tests, PDF generation and browser automation
+-r requirements.txt
+jupyter==1.1.1
+nbconvert==7.17.2
+nbformat==5.11.1
+ipykernel==7.3.0
+pytest==9.1.1
+playwright==1.64.0
+reportlab==5.0.1

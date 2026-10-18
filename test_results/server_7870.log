@@ -1,0 +1,4 @@
+17:57:50 | STARTUP     {"model": "gpt-5.4", "router_model": "gpt-5.4-mini", "reflection_model": "gpt-5.4-mini", "reflection": true, "data_dir": "/home/adammanasfi/Desktop/Courses/Agentic/assignment_3/test_results/browser_data/error_instance"}
+* Running on local URL:  http://127.0.0.1:7870
+* To create a public link, set `share=True` in `launch()`.
+17:59:02 | ERROR       {"error_type": "AuthenticationError", "error": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-inval*******-key. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}"}
